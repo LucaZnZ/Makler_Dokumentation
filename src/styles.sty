@@ -1,0 +1,25 @@
+%! Package = PACKAGE_NAME
+%! Author = Luca
+%! Date = 11.12.2022
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles}[2022/12/11 Luca's Package]
+
+% Seitenränder
+\RequirePackage[a4paper, top{3.3 cm} bottom{2.5 cm} left{2.5 cm} right{2.5 cm}]{geometry}
+#% Schriftart
+\RequirePackage{fontspec}
+\setmainfont{Arial}
+
+% Inhaltsverzeichnis
+\RequirePackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
+\renewcommand*\contentsname{Inhaltsverzeichnis}
+
+% Kopf und Fußleiste
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{ \markright{#1} }
+\fancyhf{}
+\fancyhf[HL]{\textit{ \nouppercase{\rightmark}} }   % Kopfleiste mit section name
+\fancyhf[FR]{\thepage}  % Fußleiste mit Seitenzahl
