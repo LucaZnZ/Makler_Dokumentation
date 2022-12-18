@@ -5,21 +5,30 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{styles}[2022/12/11 Luca's Package]
 
+\RequirePackage[ngerman]{babel} % setzt Sprache auf deutsch
+
 % Seitenränder
 \RequirePackage[a4paper, top{3.3 cm} bottom{2.5 cm} left{2.5 cm} right{2.5 cm}]{geometry}
-#% Schriftart
+
+% Schriftart
 \RequirePackage{fontspec}
 \setmainfont{Arial}
 
 % Inhaltsverzeichnis
 \RequirePackage{tocloft}
+\RequirePackage{tocbibind}  % damit Abbildungsverzeichnis etc ebenfalls aufgeführt werden
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
-\renewcommand*\contentsname{Inhaltsverzeichnis}
 
 % Kopf und Fußleiste
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
-\renewcommand{\sectionmark}[1]{ \markright{#1} }
+% sorgt dafür das section bereits in die Kofpleiste geschrieben wird und nicht nur subsection
+\renewcommand{\sectionmark}[1]{ \markright{\thesection \quad #1} }
 \fancyhf{}
-\fancyhf[HL]{\textit{ \nouppercase{\rightmark}} }   % Kopfleiste mit section name
-\fancyhf[FR]{\thepage}  % Fußleiste mit Seitenzahl
+\fancyhf[HL]{\textit{\rightmark}}   % Kopfleiste mit section name
+\fancyhf[FC]{\thepage}  % Fußleiste mit Seitenzahl
+
+% Abbildungen
+\RequirePackage{graphicx}
+\RequirePackage{float}  % für bessere Positionierung
+\renewcommand{\figref}[1]{\textit{Abbildung~\ref*{#1}}} % custom command zum Referenzieren von Abbildungen
