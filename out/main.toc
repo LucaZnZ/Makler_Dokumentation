@@ -1,0 +1,11 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{Inhaltsverzeichnis}{II}{}%
+\contentsline {section}{\numberline {1}Projektbeschreibung}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Projektumfeld}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Projektidee/ Kurzform der Aufgabenstellung}{1}{}%
+\contentsline {section}{\numberline {2}Projektvorbereitung}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Ist-Analyse}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Soll-Analyse}{1}{}%
+\contentsline {section}{\numberline {3}Ressourcen- und Ablaufplanung}{1}{}%
+\contentsline {subsection}{\numberline {3.1}Erstellung des Datenbank Models}{2}{}%
+\contentsline {section}{Abbildungsverzeichnis}{III}{}%
