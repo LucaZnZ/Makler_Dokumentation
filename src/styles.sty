@@ -8,7 +8,7 @@
 \RequirePackage[ngerman]{babel} % setzt Sprache auf deutsch
 
 % Seitenränder
-\RequirePackage[a4paper, top{3.3 cm} bottom{2.5 cm} left{2.5 cm} right{2.5 cm}]{geometry}
+\RequirePackage[a4paper, top=3.3 cm, bottom=2.5 cm, left=2.5 cm, right=2.5 cm]{geometry}
 
 % Schriftart
 \RequirePackage{fontspec}
@@ -31,4 +31,4 @@
 % Abbildungen
 \RequirePackage{graphicx}
 \RequirePackage{float}  % für bessere Positionierung
-\renewcommand{\figref}[1]{\textit{Abbildung~\ref*{#1}}} % custom command zum Referenzieren von Abbildungen
+\newcommand{\figref}[1]{\textit{Abbildung~\ref*{#1}}} % custom command zum Referenzieren von Abbildungen

@@ -9,3 +9,4 @@
 \contentsline {section}{\numberline {3}Ressourcen- und Ablaufplanung}{1}{}%
 \contentsline {subsection}{\numberline {3.1}Erstellung des Datenbank Models}{2}{}%
 \contentsline {section}{Abbildungsverzeichnis}{III}{}%
+\contentsline {section}{Literatur}{III}{}%

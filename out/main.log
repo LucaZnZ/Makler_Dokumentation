@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.11.25) (format=lualatex 2022.12.11)  19 DEC 2022 17:22
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.11.25) (format=lualatex 2022.12.11)  19 DEC 2022 18:56
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -209,22 +209,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
 
-(C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)
-
-C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty:100
-5: Package keyval Error: top{3.3 cm}bottom{2.5 cm}left{2.5 cm}right{2.5 cm} und
-efined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1005 \ProcessOptionsKV[p]{Gm}
-                             %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
 (C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse
 .sty (C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-11-02 L3 programming layer (loader) 
@@ -375,20 +361,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box52
 \@float@everytoks=\toks19
 \@floatcapt=\box53
-)
-
-./styles.sty:34: LaTeX Error: Command \figref undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \renewcommand{\figref}
-                         [1]{\textit{Abbildung~\ref*{#1}}} % custom command ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty
+))
+(C:/Users/Luca/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip90
 \bibsep=\skip91
@@ -429,15 +403,15 @@ LaTeX Font Info:    ... okay on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(93.89418pt, 680.02078pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
+* \textwidth=455.24411pt
+* \textheight=680.02078pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-15.37581pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -542,7 +516,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 File: images/szut_logo.png Graphic file (type png)
 <use images/szut_logo.png>
 Package luatex.def Info: images/szut_logo.png  used on input line 18.
-(luatex.def)             Requested size: 167.2989pt x 200.393pt.
+(luatex.def)             Requested size: 182.09486pt x 218.11746pt.
  [1
 
 {C:/Users/Luca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./images/szut_l
@@ -565,7 +539,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: images/Immobilien_ERD.jpg Graphic file (type jpg)
 <use images/Immobilien_ERD.jpg>
 Package luatex.def Info: images/Immobilien_ERD.jpg  used on input line 9.
-(luatex.def)             Requested size: 418.25368pt x 229.63673pt.
+(luatex.def)             Requested size: 455.24411pt x 249.9448pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -590,22 +564,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout4 = main.lof
 
-No file main.bbl.
-[3] (C:/Users/Luca/IdeaProjects/Makler_Dokumentation/out/main.aux))
+(C:/Users/Luca/IdeaProjects/Makler_Dokumentation/out/main.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+) [3] (C:/Users/Luca/IdeaProjects/Makler_Dokumentation/out/main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 6737 strings out of 477244
+ 6741 strings out of 477244
  100000,794899 words of node,token memory allocated
  619 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 7 attribute, 83 glue_spec,
  5 attribute_list, 1 write nodes
-   avail lists: 2:412,3:149,4:6,5:55,6:37,7:2801,8:1,9:160,10:5,11:346
- 27693 multiletter control sequences out of 65536+600000
+   avail lists: 2:448,3:149,4:7,5:60,6:37,7:2789,8:1,9:172,10:6,11:346
+ 27692 multiletter control sequences out of 65536+600000
  46 fonts using 13174471 bytes
  87i,12n,97p,255b,308s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/WINDOWS/Fonts/arialni.ttf><C:/WINDOWS/Fonts/arialbd.ttf><C:/WINDOWS/Fonts/ar
 ial.ttf>
-Output written on main.pdf (5 pages, 255526 bytes).
+Output written on main.pdf (5 pages, 255635 bytes).
 
 PDF statistics: 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
