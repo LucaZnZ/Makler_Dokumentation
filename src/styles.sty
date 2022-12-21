@@ -17,6 +17,7 @@
 % Inhaltsverzeichnis
 \RequirePackage{tocloft}
 \RequirePackage{tocbibind}  % damit Abbildungsverzeichnis etc ebenfalls aufgeführt werden
+\RequirePackage{hyperref}   % fügt hyperlinks zu den einzelnen Kapiteln hinzu
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
 
 % Kopf und Fußleiste
@@ -31,4 +32,7 @@
 % Abbildungen
 \RequirePackage{graphicx}
 \RequirePackage{float}  % für bessere Positionierung
+
+% Referencen
 \newcommand{\figref}[1]{\textit{Abbildung~\ref*{#1}}} % custom command zum Referenzieren von Abbildungen
+\newcommand{\chapref}[1]{\textit{Kapitel~\ref*{#1}}}

@@ -1,12 +1,15 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{Inhaltsverzeichnis}{II}{}%
-\contentsline {section}{\numberline {1}Projektbeschreibung}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Projektumfeld}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Projektidee/ Kurzform der Aufgabenstellung}{1}{}%
-\contentsline {section}{\numberline {2}Projektvorbereitung}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Ist-Analyse}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Soll-Analyse}{1}{}%
-\contentsline {section}{\numberline {3}Ressourcen- und Ablaufplanung}{1}{}%
-\contentsline {subsection}{\numberline {3.1}Erstellung des Datenbank Models}{2}{}%
-\contentsline {section}{Abbildungsverzeichnis}{III}{}%
-\contentsline {section}{Literatur}{III}{}%
+\contentsline {section}{Inhaltsverzeichnis}{II}{section*.1}%
+\contentsline {section}{\numberline {1}Projektbeschreibung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Projektumfeld}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Projektidee/ Kurzform der Aufgabenstellung}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Projektvorbereitung}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Ist-Analyse}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Soll-Analyse}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Ressourcen- und Ablaufplanung}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ressourcenplan}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Zeitplan}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Budget}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Erstellung des Datenbank Models}{3}{subsection.3.4}%
+\contentsline {section}{Abbildungsverzeichnis}{III}{section*.2}%
+\contentsline {section}{Literatur}{III}{section*.3}%
